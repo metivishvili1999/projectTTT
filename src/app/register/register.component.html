@@ -94,7 +94,7 @@
         </div>
       </div>
       <div class="form-group">
-        <button class="btn btn-primary btn-block">Sign Up</button>
+        <button>Sign Up</button>
       </div>
       <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
         Signup failed!<br />{{ errorMessage }}
@@ -104,6 +104,10 @@
     <div class="alert alert-success" *ngIf="isSuccessful">
       Your registration is successful!
     </div>
+  </div>
+  <div class="form-container right-panel">
+    <img class="right-panel-img" src="../../assets/images/CV43hq.jpg"
+    >
   </div>
   <!-- <div class="form-container sign-in-container">
     <form action="#"
